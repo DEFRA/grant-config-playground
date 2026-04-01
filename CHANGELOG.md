@@ -1,26 +1,7 @@
 # grant-config-playground
 
-## 0.0.6
+## 0.1.0
 
-### Patch Changes
+### Minor Changes
 
-- 8e7980b: checking just push
-- ab495dd: fix yaml file
-
-## 0.0.5
-
-### Patch Changes
-
-- bae24d9: trials
-
-## 0.0.4
-
-### Patch Changes
-
-- a6e756c: testing
-
-## 0.0.3
-
-### Patch Changes
-
-- 9daad10: test branch protection
+- 8342c79: Switch versioning to pre-push

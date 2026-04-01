@@ -8,4 +8,6 @@ if [ "$currentUser" != "github-actions[bot]" ]; then
     fi
 
     compgen -G ".changeset/*-*-*.md" || (echo ❌ Make sure you have added a changeset file for this commit! && exit 1)
+
+    npm run version:changed
 fi
