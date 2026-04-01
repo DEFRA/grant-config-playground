@@ -2,4 +2,4 @@
 "grant-config-playground": patch
 ---
 
-long shot
+use token earlier
