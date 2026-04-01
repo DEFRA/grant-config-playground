@@ -40,6 +40,8 @@ jobs:
       - name: Commit version bumps & push
         run: |
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Git tag & GitHub Release
         run: npm run github:release
