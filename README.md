@@ -14,9 +14,9 @@ To make changes to this repo, please follow the steps below:
 2. Run `npm run version:create` OR `npx @changesets/cli` to create a changeset file. This will guide you through the process of documenting your changes.`
 3. Ensure there is a changeset .md file added to the commit (should be done automatically).
 4. Push to branch, and create a pull request.
-5. Github actions will verify the build.
+5. Github actions will verify the build, interpret the changeset, and make additions to the changelog.
 6. After review, merge the pull request.
-7. Github action will automatically increment the version and publish.
+7. Github action will automatically tag the release.
 
 ## Licence
 
