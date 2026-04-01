@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.0.5
+
+### Patch Changes
+
+- bae24d9: trials
+
 ## 0.0.4
 
 ### Patch Changes
