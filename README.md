@@ -1,4 +1,4 @@
-# grant-config-woodland
+# grant-config-playground
 
 Grant specific config for woodland grant.
 
