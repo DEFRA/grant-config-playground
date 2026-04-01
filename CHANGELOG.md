@@ -1,5 +1,12 @@
 # grant-config-playground
 
+## 0.0.6
+
+### Patch Changes
+
+- 8e7980b: checking just push
+- ab495dd: fix yaml file
+
 ## 0.0.5
 
 ### Patch Changes
