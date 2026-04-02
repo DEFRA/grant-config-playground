@@ -4,7 +4,7 @@ Grant specific config for any old grant, as this is a playground for experiments
 
 ## Usage
 
-Add any grant config below a specific top level directory which indicates the name of the grant. Inside
+Add any grant config below a specific top-level directory which indicates the name of the grant. Inside
 there subdirectories can be provided to split down the config between services or functions.
 
 ## Making changes
