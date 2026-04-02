@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.1.3
+
+### Patch Changes
+
+- f43047b: Publish tags after
+
 ## 0.1.2
 
 ### Patch Changes
