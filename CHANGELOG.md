@@ -1,5 +1,12 @@
 # grant-config-playground
 
+## 0.1.2
+
+### Patch Changes
+
+- e5eb441: with extra PR
+- beb16ea: add PR permission
+
 ## 0.1.1
 
 ### Patch Changes
