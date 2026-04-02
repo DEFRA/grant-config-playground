@@ -1,5 +1,12 @@
 # grant-config-playground
 
+## 0.2.1
+
+### Patch Changes
+
+- 1b17a58: Final readme update for now
+- 1146e45: Further minor update
+
 ## 0.2.0
 
 ### Minor Changes
