@@ -2,4 +2,4 @@
 "grant-config-playground": patch
 ---
 
-with extra PR
+Using github api for PR
