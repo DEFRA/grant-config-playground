@@ -1,6 +1,6 @@
 # grant-config-playground
 
-Grant specific config for woodland grant.
+Grant specific config for any old grant, as this is a playground for experiments.
 
 ## Usage
 
