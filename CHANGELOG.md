@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.1.5
+
+### Patch Changes
+
+- d62ac8d: Update wording
+
 ## 0.1.4
 
 ### Patch Changes
