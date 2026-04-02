@@ -1,5 +1,15 @@
 # grant-config-playground
 
+## 0.2.0
+
+### Minor Changes
+
+- c6bc79d: Check addition of a minor change too
+
+### Patch Changes
+
+- efd5a00: Updating the readme
+
 ## 0.1.6
 
 ### Patch Changes
