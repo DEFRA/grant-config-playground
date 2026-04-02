@@ -11,7 +11,7 @@ there subdirectories can be provided to split down the config between services o
 
 To make changes to this repo to create new config versions, please follow the steps below:
 1. Make the changes to config as required on a branch.
-2. Run `npm run version:create` OR `npx @changesets/cli` to create a changeset file. This will guide you through the process of documenting your changes.`
+2. Run `npm run version` OR `npx @changesets/cli` to create a changeset file. This will guide you through the process of documenting your changes.`
 3. A changeset .md file will be added to the commit automatically.
 4. Push to branch, and create a pull request.
 5. After review, merge the pull request.
