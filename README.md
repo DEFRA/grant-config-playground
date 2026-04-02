@@ -15,9 +15,10 @@ To make changes to this repo to create new config versions, please follow the st
 3. A changeset .md file will be added to the commit automatically.
 4. Push to branch, and create a pull request.
 5. After review, merge the pull request.
-7. Github action will create a second pull request with versioning applied
-   7a. At this point you can create further changes to include in the next version on further branches if desired
-8. Merge this pull request to apply version and publish tag.
+6. Github action will create a second pull request with versioning applied
+   - At this point you can create further changes to include in the next version on further branches if desired
+   - Repeat steps 1-5 for further changes to include in the next version
+7. Merge this pull request to apply version and publish tag.
 
 ## Licence
 
