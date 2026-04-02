@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.1.6
+
+### Patch Changes
+
+- 3b35d18: Update the readme
+
 ## 0.1.5
 
 ### Patch Changes
