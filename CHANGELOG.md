@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.1.4
+
+### Patch Changes
+
+- d76879d: set user for tagging again
+
 ## 0.1.3
 
 ### Patch Changes
