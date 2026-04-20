@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.3.0
+
+### Minor Changes
+
+- 726688f: Add workflow file for hotfix release
+
 ## 0.2.1
 
 ### Patch Changes
