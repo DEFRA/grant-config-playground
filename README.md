@@ -20,6 +20,8 @@ To make changes to this repo to create new config versions, please follow the st
    - Repeat steps 1-5 for further changes to include in the next version
 7. Merge this pull request to apply version and publish tag.
 
+Further instructions coming soon...
+
 ## Licence
 
 THIS INFORMATION IS LICENSED UNDER THE CONDITIONS OF THE OPEN GOVERNMENT LICENCE found at:
