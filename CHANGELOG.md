@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.0.0
+
+### Major Changes
+
+- 0691a27: Another major version
+
 ## 3.2.0
 
 ### Minor Changes
