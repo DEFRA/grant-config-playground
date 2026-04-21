@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.3.1
+
+### Patch Changes
+
+- 6b26b4d: update workflows for hotfix process
+
 ## 0.3.0
 
 ### Minor Changes
