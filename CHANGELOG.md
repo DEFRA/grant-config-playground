@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 2.0.0
+
+### Major Changes
+
+- b8072c2: go up another major for testing
+
 ## 1.0.0
 
 ### Major Changes
