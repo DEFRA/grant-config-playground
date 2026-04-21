@@ -1,12 +1,7 @@
-name: Release Hot Fix
+name: Create Hot Fix
 
 on:
-  pull_request:
-    branches:
-      - release/**
-      - hotfix/**
-    paths:
-      - CHANGELOG.md
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,6 +10,7 @@ permissions:
 
 jobs:
   release:
+    if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +19,9 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
+
+      - name: Ensure changeset file exists
+        run: compgen -G ".changeset/*-*-*.md"
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
@@ -36,7 +35,7 @@ jobs:
       - name: Set user
         run: git config user.name github-actions[bot] && git config user.email github-actions[bot]@users.noreply.github.com
 
-      - name: Publish release
+      - name: Create Release Pull Request
         uses: changesets/action@v1
         with:
           commitMode: 'github-api'
