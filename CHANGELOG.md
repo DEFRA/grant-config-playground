@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.1.0
+
+### Minor Changes
+
+- 1f400a7: Prevent check again on github bot PR
+
 ## 3.0.0
 
 ### Major Changes
