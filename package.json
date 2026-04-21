@@ -1,6 +1,6 @@
 {
   "name": "grant-config-playground",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Grant config for playground grant",
   "engines": {
     "node": ">=24"
