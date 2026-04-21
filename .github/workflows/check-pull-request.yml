@@ -9,11 +9,10 @@ on:
       - reopened
       - synchronize
       - ready_for_review
-    paths-ignore:
-      - CHANGELOG.md
 
 jobs:
   cdp-workflows:
+    if: github.actor != 'github-actions[bot]'
     name: Run Pull Request Checks
     runs-on: ubuntu-latest
     steps:
