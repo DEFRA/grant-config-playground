@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.2.0
+
+### Minor Changes
+
+- 95754cb: try differnt exclusion criteria
+
 ## 3.1.0
 
 ### Minor Changes
