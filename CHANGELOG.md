@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 0.4.0
+
+### Minor Changes
+
+- 2438894: simulate some hotfix change
+
 ## 0.3.1
 
 ### Patch Changes
