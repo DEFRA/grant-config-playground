@@ -1,5 +1,12 @@
 # grant-config-playground
 
+## 3.0.0
+
+### Major Changes
+
+- 5a1ae29: Major surgery
+- 386e755: Stop excess workflow runs
+
 ## 2.0.0
 
 ### Major Changes
