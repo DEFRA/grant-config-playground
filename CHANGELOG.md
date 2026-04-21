@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.2.1
+
+### Patch Changes
+
+- 93d213e: just a hotfix
+
 ## 3.2.0
 
 ### Minor Changes
