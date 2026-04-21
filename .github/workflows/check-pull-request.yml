@@ -9,6 +9,8 @@ on:
       - reopened
       - synchronize
       - ready_for_review
+    paths-ignore:
+      - CHANGELOG.md
 
 jobs:
   cdp-workflows:
