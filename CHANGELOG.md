@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 1.0.0
+
+### Major Changes
+
+- 76c8ceb: Simulate major change in order to go back and try hotfixes
+
 ## 0.3.1
 
 ### Patch Changes
