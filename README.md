@@ -37,9 +37,10 @@ You may want to release a hotfix to a specific version of a grant. E.g to releas
 3. Run `npm run version` to create a changeset file. This will guide you through the process of documenting your changes. Note that you should choose semver increment very carefully here, usually only patch would make sense.
 4. A changeset .md file will be added to the commit automatically.
 5. Push to branch
-6. After review, run the `Create Hot Fix` workflow via github manually, selecting the branch you just pushed to.
-7. Github action will create a pull request with versioning applied
-8. Merge this pull request to run `Release Hot Fix` workflow and apply version and publish tag.
+6. If you want the hotfix changes to be reviewed by PR, then you will need to create a second branch from the hotfix/release branch, make the changes there, push to github, and create a pull request. Then after merge proceed to step 7.
+7. Run the `Create Hot Fix` workflow via github manually, selecting the branch you just pushed to.
+8. Github action will create a pull request with versioning applied 
+9. Merge this pull request to run `Release Hot Fix` workflow and apply version and publish tag.
 
 ## Licence
 
