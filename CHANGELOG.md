@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.2.2
+
+### Patch Changes
+
+- e5b2097: a micro
+
 ## 3.2.1
 
 ### Patch Changes
