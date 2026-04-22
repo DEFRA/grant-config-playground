@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.3.0
+
+### Minor Changes
+
+- 0a24300: hmmm a new minor here
+
 ## 3.2.3
 
 ### Patch Changes
