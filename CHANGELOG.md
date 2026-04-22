@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 3.2.3
+
+### Patch Changes
+
+- 7d8dc0a: Update some docs
+
 ## 3.2.2
 
 ### Patch Changes
