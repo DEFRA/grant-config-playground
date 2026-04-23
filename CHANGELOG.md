@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.0.2
+
+### Patch Changes
+
+- ea78e9c: Checking process
+
 ## 4.0.1
 
 ### Patch Changes
