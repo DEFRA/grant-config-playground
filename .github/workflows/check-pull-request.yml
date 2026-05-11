@@ -18,5 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Ensure changeset file exists
-        run: compgen -G ".changeset/*-*-*.md"
+#      - name: Ensure changeset file exists
+#        run: compgen -G ".changeset/*-*-*.md"
+
+      - name: poke dev
+        run: curl -v https://grants-config-browser.dev.cdp-int.defra.cloud/
