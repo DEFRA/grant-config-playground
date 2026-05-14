@@ -11,6 +11,7 @@ on:
       - ready_for_review
     paths:
       - 'some-grant/**'
+      - 'playground-grant/**'
 
 jobs:
   cdp-workflows:
