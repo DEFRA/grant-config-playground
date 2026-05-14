@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.1.0
+
+### Minor Changes
+
+- a60c300: introduce new grant, playground-grant
+
 ## 4.0.2
 
 ### Patch Changes
