@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.1.6
+
+### Patch Changes
+
+- e645dde: Going back to normal flow
+
 ## 4.1.5
 
 ### Patch Changes
