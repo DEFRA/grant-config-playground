@@ -41,4 +41,4 @@ jobs:
           commitMode: 'github-api'
           publish: npm run github:release
           commit: 'Create new config version'
-          title: 'Create new config version'
+          title: 'Create new dev/hotfix config version'
