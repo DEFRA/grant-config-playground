@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.1.2
+
+### Patch Changes
+
+- d62a431: Try this new thing
+
 ## 4.1.1
 
 ### Patch Changes
