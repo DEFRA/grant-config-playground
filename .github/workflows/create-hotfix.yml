@@ -1,4 +1,4 @@
-name: Create Hot Fix
+name: Create Hot Fix or dev version
 
 on:
   workflow_dispatch:
@@ -35,10 +35,10 @@ jobs:
       - name: Set user
         run: git config user.name github-actions[bot] && git config user.email github-actions[bot]@users.noreply.github.com
 
-      - name: Create Release Pull Request
+      - name: Create new config version
         uses: changesets/action@v1
         with:
           commitMode: 'github-api'
           publish: npm run github:release
           commit: 'Create new config version'
-          title: 'Create new config version'
+          title: 'Create new dev/hotfix config version'
