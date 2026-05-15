@@ -1,5 +1,17 @@
 # grant-config-playground
 
+## 4.1.1
+
+### Patch Changes
+
+- 3429d5a: Add slide config
+
+## 4.1.0
+
+### Minor Changes
+
+- a60c300: introduce new grant, playground-grant
+
 ## 4.0.2
 
 ### Patch Changes
