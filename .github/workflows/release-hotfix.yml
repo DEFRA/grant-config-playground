@@ -2,9 +2,9 @@ name: Release Hot Fix
 
 on:
   push:
-    branches:
-      - release/**
-      - hotfix/**
+    branches-ignore:
+      - changeset-release/**
+      - main
     paths:
       - CHANGELOG.md
 

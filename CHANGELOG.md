@@ -1,5 +1,17 @@
 # grant-config-playground
 
+## 4.1.4
+
+### Patch Changes
+
+- c92c9c6: a second dev change
+
+## 4.1.3
+
+### Patch Changes
+
+- b2b9169: just some change
+
 ## 4.1.2
 
 ### Patch Changes
