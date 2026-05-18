@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.2.1
+
+### Patch Changes
+
+- 86946e7: add roundabout config
+
 ## 4.2.0
 
 ### Minor Changes
