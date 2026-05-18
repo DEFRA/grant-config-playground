@@ -43,3 +43,30 @@ jobs:
           publish: npm run github:release
           commit: 'Create new config version'
           title: 'Create new config version'
+
+      - name: Generate Release Curl Templates
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0)
+          GRANTS=("playground-grant" "some-grant")
+          
+          for GRANT in "${GRANTS[@]}"; do
+            FILES=$(find "$GRANT" -type f | sed "s|^$GRANT/||" | jq -R . | jq -s -c .)
+            
+            echo "------------------------------------------------------------"
+            echo "Release template for $GRANT (version $LATEST_TAG): Use this to release to dev"
+            echo "------------------------------------------------------------"
+            cat <<EOF
+          curl -X POST https://ephemeral-protected.api.dev.cdp-int.defra.cloud/grants-config-broker/api/release-config \\
+               -H "x-api-key: <INSERT EPHERMERAL DEV KEY>" \\
+               -H "Content-Type: application/json" \\
+               -H "Authorization: Bearer <your_token>" \\
+               -d '{
+                 "grant": "$GRANT",
+                 "repository": "grant-config-playground",
+                 "version": "$LATEST_TAG",
+                 "files": $FILES,
+                 "status": "draft"
+               }'
+          EOF
+            echo -e "\n"
+          done
