@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.2.3
+
+### Patch Changes
+
+- c7217d1: Ready for main
+
 ## 4.2.2
 
 ### Patch Changes
