@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.2.0
+
+### Minor Changes
+
+- d3ebed3: feat(GRAN-20): update playground-grant config, minor change
+
 ## 4.1.9
 
 ### Patch Changes
