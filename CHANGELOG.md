@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.2.2
+
+### Patch Changes
+
+- d4b8058: Checking out the generated release command
+
 ## 4.2.1
 
 ### Patch Changes
