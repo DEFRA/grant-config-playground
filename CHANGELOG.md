@@ -1,5 +1,11 @@
 # grant-config-playground
 
+## 4.2.4
+
+### Patch Changes
+
+- 85009d5: feat(GRAN-20): test dev releases
+
 ## 4.2.3
 
 ### Patch Changes
