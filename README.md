@@ -2,6 +2,12 @@
 
 Grant specific config for any old grant, as this is a playground for experiments.
 
+> ⚠️ This repository is no longer actively used or maintained.
+>
+> Please use **[grants-config-playground](https://github.com/DEFRA/grants-config-playground#grants-config-playground)** going forward.
+>
+> Future development, bug fixes, and documentation updates will be made in the new repository.
+
 ## Usage
 
 Add any grant config below a specific top-level directory which indicates the name of the grant. Inside
